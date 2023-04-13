@@ -10,4 +10,8 @@ export class LoggerService {
     console.log(message);
   }
 
+  teste(msg: string) {
+    console.log('msg padrão')
+  }
+
 }
